@@ -1,10 +1,11 @@
 import React from "react";
+import Container from "../components/Container";
 
 
 function About() {
     return (
         <div>
-            <div className="container">
+            <Container>
                 <div className="card text-white bg-dark mb-3">
                     {/* class name above had style="max-width: auto; */}
                     <h1 className="card-header">About Me</h1>
@@ -14,7 +15,7 @@ function About() {
                         {/* <a href="./Assets/Maren_Hamby_Resume_2.docx" style="color: #A8BCD4">Click Here!</a> */}
                     </div>
                 </div>
-            </div>
+            </Container>
         </div>
     );
 }
