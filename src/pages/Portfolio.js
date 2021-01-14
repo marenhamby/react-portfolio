@@ -3,18 +3,51 @@ import React from "react";
 
 function About() {
     return (
-        <div>
-            <div className="container">
-                <div className="card text-white bg-dark mb-3">
-                    {/* class name above had style="max-width: auto; */}
-                    <h1 className="card-header">About Me</h1>
-                    <div className="card-body">
-                        {/* <img src="Assets/images/IMG-1903_2.png" alt="photo of Maren in Iceland" className="float-left mr-3" style="width:40%" > */}
-                        <p className="card-text">Hi! I'm Maren. I was born and raised in Kannapolis, NC and I currently live in Durham, NC. I went to UNC Chapel Hill and have since been working in the clinical trials industry. I have a passion for organization and love using it to increase efficiency in the workplace.  I'm now looking to change directions and work in a more in the tech industry where my attention to detail and love for problem solving can really be utilized.</p>Check out my resume:
-                        {/* <a href="./Assets/Maren_Hamby_Resume_2.docx" style="color: #A8BCD4">Click Here!</a> */}
+        <div className="container">
+        <div className="card text-white bg-dark mb-3" style="max-width: auto">
+            <h1 className="card-header">Portfolio</h1>
+            <div className="card-body">
+                <div className="row">
+                    <div className="col">
+                        <h4>The Productivity Planner</h4>
+                        <img src="./Assets/images/planner-dashboard.png" alt="planner webpage">
+                             {/* style="width: 100%" style="margin: 16px" */}
+                        <h5>
+                            {/* <a href="https://obscure-lake-47661.herokuapp.com/" target="_blank" style="color: #A8BCD4">Link to the deployed page here!</a> */}
+                        </h5>
+                        <h5>
+                            {/* <a href="https://github.com/averyjbrown2/Project-2" target="_blank" style="color: #A8BCD4">Link to the code here!</a> */}
+                        </h5>
+                        </img>
+                    </div>
+                    <div className="col">
+                        <h4>The Work Day Scheduler</h4>
+                        <img src="./Assets/images/schedule_page_screenshot.PNG" alt="Scheduler webpage"> 
+                        {/* style="width: 100%" style="margin: 16px" */}
+                        <h5>
+                            {/* <a href="https://marenhamby.github.io/work-scheduler/" target="_blank" style="color: #A8BCD4">Link to the deployed page here!</a> */}
+                        </h5>
+                        <h5>
+                            {/* <a href="https://github.com/marenhamby/work-scheduler" target="_blank" style="color: #A8BCD4">Link to the code here!</a> */}
+                        </h5>
+                        </img>
+                    </div>
+                    <div className="col">
+                        <h4>The UltiMutt Dog Finder</h4>
+                        <img src="./Assets/images/homePage.png" alt="dog finder webpage">
+                             {/* style="width: 100%" style="margin: 16px" */}
+                        <h5>
+                            {/* <a href="https://marenhamby.github.io/UltiMutt_dog_finder/" target="_blank" style="color: #A8BCD4">Link to the deployed page here!</a> */}
+                        </h5>
+                        <h5>
+                            {/* <a href="https://github.com/marenhamby/UltiMutt_dog_finder" target="_blank" style="color: #A8BCD4">Link to the code here!</a> */}
+                        </h5>
+                        </img>
                     </div>
                 </div>
             </div>
+                
+        </div>
         </div>
     );
 }
