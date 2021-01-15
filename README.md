@@ -8,7 +8,7 @@ Here's a screenshot of the portfolio:
 ![portfolio page](./public/image/AboutMe_Page.PNG)
 
 ## Link
-Here's a link to the deployed site:  
+Here's a link to the deployed site:  https://fierce-retreat-39127.herokuapp.com/
 
 ## More info about React:  
 
