@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../components/Card";
 import Container from "../components/Container";
+import Row from "../components/Row";
 import "./portfolio.css";
 
 function Portfolio() {
@@ -8,7 +9,7 @@ function Portfolio() {
         <div>
             <Container>
                 <Card>
-                    <div className="row">
+                    <Row>
                         <div className="col">
                             <h4>The Productivity Planner</h4>
                             <img src="image/planner-dashboard.png" alt="planner webpage" className="portImage"></img>
@@ -42,7 +43,7 @@ function Portfolio() {
                             </h5>
 
                         </div>
-                    </div>
+                    </Row>
                 </Card>
             </Container>
         </div>
