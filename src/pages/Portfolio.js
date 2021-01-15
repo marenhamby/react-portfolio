@@ -33,20 +33,6 @@ class Portfolio extends Component {
     },
     ];
 
-    //   loadProjects = state => {
-    //       for (i=0, i< state.length, i++) {
-    //         return {
-    //             title= state[i].title,
-    //             image= state[i].image,
-    //             alt= state[i].alt,
-    //             deployed= state[i].deployed,
-    //             code= state[i].code
-    //         }
-    //       }
-    //       });
-    //   }
-
-
     render() {
         return (
             <div>
@@ -54,20 +40,31 @@ class Portfolio extends Component {
                     <Card>
                         <Row>
                             <Project
-                                title={this.state.title}
-                                image={this.state.image}
-                                alt={this.state.alt}
-                                deployed={this.state.deployed}
-                                code={this.state.code}
+                                title={this.state[0].title}
+                                image={this.state[0].image}
+                                alt={this.state[0].alt}
+                                deployed={this.state[0].deployed}
+                                code={this.state[0].code}
+                            ></Project>
+                            <Project
+                                title={this.state[1].title}
+                                image={this.state[1].image}
+                                alt={this.state[1].alt}
+                                deployed={this.state[1].deployed}
+                                code={this.state[1].code}
+                            ></Project>
+                            <Project
+                                title={this.state[2].title}
+                                image={this.state[2].image}
+                                alt={this.state[2].alt}
+                                deployed={this.state[2].deployed}
+                                code={this.state[2].code}
                             ></Project>
                         </Row>
                     </Card>
                 </Container>
             </div >
-
         );
-
-
     }
 }
 
