@@ -81,6 +81,8 @@ class Portfolio extends Component {
                                 deployed={this.state[2].deployed}
                                 code={this.state[2].code}
                             ></Project>
+                        </Row>
+                        <Row>
                             <Project
                                 title={this.state[3].title}
                                 image={this.state[3].image}
