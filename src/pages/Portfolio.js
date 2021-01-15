@@ -24,10 +24,10 @@ function Portfolio() {
                             <h4>The Work Day Scheduler</h4>
                             <img src="image/schedule_page_screenshot.PNG" alt="Scheduler webpage" className="portImage"></img>
                             <h5>
-                                {/* <a href="https://marenhamby.github.io/work-scheduler/" target="_blank" style="color: #A8BCD4">Link to the deployed page here!</a> */}
+                                <a href="https://marenhamby.github.io/work-scheduler/" target="_blank" rel="noreferrer noopener" className="link">Link to the deployed page here!</a>
                             </h5>
                             <h5>
-                                {/* <a href="https://github.com/marenhamby/work-scheduler" target="_blank" style="color: #A8BCD4">Link to the code here!</a> */}
+                                <a href="https://github.com/marenhamby/work-scheduler" target="_blank" rel="noreferrer noopener" className="link">Link to the code here!</a>
                             </h5>
 
                         </div>
@@ -35,10 +35,10 @@ function Portfolio() {
                             <h4>The UltiMutt Dog Finder</h4>
                             <img src="image/homePage.png" alt="dog finder webpage" className="portImage"></img>
                             <h5>
-                                {/* <a href="https://marenhamby.github.io/UltiMutt_dog_finder/" target="_blank" style="color: #A8BCD4">Link to the deployed page here!</a> */}
+                                <a href="https://marenhamby.github.io/UltiMutt_dog_finder/" target="_blank" rel="noreferrer noopener" className="link">Link to the deployed page here!</a>
                             </h5>
                             <h5>
-                                {/* <a href="https://github.com/marenhamby/UltiMutt_dog_finder" target="_blank" style="color: #A8BCD4">Link to the code here!</a> */}
+                                <a href="https://github.com/marenhamby/UltiMutt_dog_finder" target="_blank" rel="noreferrer noopener" className="link">Link to the code here!</a>
                             </h5>
 
                         </div>
