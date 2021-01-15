@@ -31,6 +31,27 @@ class Portfolio extends Component {
         deployed: "https://marenhamby.github.io/UltiMutt_dog_finder/",
         code: "https://github.com/marenhamby/UltiMutt_dog_finder",
     },
+    {
+        title: "Burger Eater",
+        image: "image/burger-eater.png",
+        alt: "burger eater page",
+        deployed: "https://guarded-inlet-46841.herokuapp.com/",
+        code: "https://github.com/marenhamby/burger-eater",
+    },
+    {
+        title: "Note Taker",
+        image: "image/Note-Taker_homepage.PNG",
+        alt: "note taker page",
+        deployed: "https://desolate-brushlands-41857.herokuapp.com/",
+        code: "https://github.com/marenhamby/note-taker",
+    },
+    {
+        title: "Weather Dashboard",
+        image: "image/weather-dashboard.PNG",
+        alt: "weather dashboard page",
+        deployed: "https://marenhamby.github.io/weather-dashboard/",
+        code: "https://github.com/marenhamby/weather-dashboard",
+    },
     ];
 
     render() {
@@ -59,6 +80,27 @@ class Portfolio extends Component {
                                 alt={this.state[2].alt}
                                 deployed={this.state[2].deployed}
                                 code={this.state[2].code}
+                            ></Project>
+                            <Project
+                                title={this.state[3].title}
+                                image={this.state[3].image}
+                                alt={this.state[3].alt}
+                                deployed={this.state[3].deployed}
+                                code={this.state[3].code}
+                            ></Project>
+                            <Project
+                                title={this.state[4].title}
+                                image={this.state[4].image}
+                                alt={this.state[4].alt}
+                                deployed={this.state[4].deployed}
+                                code={this.state[4].code}
+                            ></Project>
+                            <Project
+                                title={this.state[5].title}
+                                image={this.state[5].image}
+                                alt={this.state[5].alt}
+                                deployed={this.state[5].deployed}
+                                code={this.state[5].code}
                             ></Project>
                         </Row>
                     </Card>
